@@ -1,7 +1,8 @@
 const {Schema, model} = require("mongoose");
 
 const ProfesionalSchema = new Schema({
-    name:String, 
+    name:String,
+    lastName: String, 
     age: Number,
     weight: Number,
     height: Number, 

@@ -6,7 +6,7 @@ router.get("/profesionals", profesionalCtrl.getProfesional);
 
 router.post("/profesionals", profesionalCtrl.createProfesional);
 
-// router.put("/profesionals", bookCtrl.updateBook);
+router.put("/profesionals", profesionalCtrl.updateProfesional);
 
 router.delete("/profesionals", profesionalCtrl.deleteProfesional);
 
